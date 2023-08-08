@@ -1,0 +1,137 @@
+.all-content {
+    font-family: Nunito;
+    color: #100f0f;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.header-divisor {
+    border-bottom: solid 1px #e2e2e2;
+    display: flex;
+    justify-content: center;
+}
+
+.header-box {
+    width: 1160px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+    &:visited {
+        color: inherit;
+    }
+}
+
+.header-icons-left {
+    display: flex;
+    flex: 1;
+    margin-right: auto;
+    gap: 32px;
+    justify-content: start;
+}
+
+.header-title {
+    font-family: Caesar Dressing;
+    font-size: 56px;
+    font-style: normal;
+    line-height: normal;
+    text-align: center;
+    margin-block: 24px;
+    font-weight: 100;
+}
+
+span {
+    cursor: pointer;
+}
+
+.header-icons-right {
+    display: flex;
+    flex: 1;
+    margin-left: auto;
+    gap: 32px;
+    justify-content: end;
+}
+
+.navigation-menu {
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    gap: 48px;
+    margin-top: 40px;
+    margin-bottom: 56px;
+    font-size: 18px;
+}
+
+.content-container {
+    display: flex;
+    justify-content: center;
+}
+
+.images-container {
+    width: 1160px;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.image {
+    width: 360px;
+    position: relative;
+}
+
+.image > img {
+    border-radius: 4px;
+}
+
+.image-large {
+    border-radius: 4px;
+    position: relative;
+}
+
+.fig-caption {
+    position: absolute;
+    bottom: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    font-weight: 100;
+    color: #f9f9f9;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.span-img-txt-up {
+    font-size: 16px;
+    margin-bottom: 12px;
+    display: block;
+}
+
+.span-img-txt-down {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+
+.footer-divisor {
+    border-top: solid 1px #e2e2e2;
+    display: flex;
+
+}
+
+.footer-box {
+    width: 1160px;
+    display: flex;
+    justify-content: space-between;
+
+}

@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>BloGames</title>
+
+        <link href="./styles/reset.css" rel="stylesheet" />
+        <link href="./styles/styles.css" rel="stylesheet" />
+        <link
+            href="https://fonts.googleapis.com/css?family=Nunito"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.cdnfonts.com/css/caesar-dressing"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <div class="all-content">
+            <div class="header-divisor">
+                <div class="header-box">
+                    <div class="header-icons-left">
+                        <div class="icon">
+                            <a href="https://www.facebook.com/" target="_blank">
+                                <img
+                                    src="./assets/svg/FacebookLogo.svg"
+                                    alt="Facebook"
+                                />
+                            </a>
+                        </div>
+                        <div class="icon">
+                            <a href="https://www.twitter.com/" target="_blank"
+                                ><img
+                                    src="./assets/svg/TwitterLogo.svg"
+                                    alt="Twitter"
+                            /></a>
+                        </div>
+                        <div class="icon">
+                            <a href="https://www.twitch.tv/" target="_blank"
+                                ><img
+                                    src="./assets/svg/TwitchLogo.svg"
+                                    alt="Twitch"
+                            /></a>
+                        </div>
+                        <div class="icon">
+                            <a href="https://www.discord.com/" target="_blank"
+                                ><img
+                                    src="./assets/svg/DiscordLogo.svg"
+                                    alt="Discord"
+                            /></a>
+                        </div>
+                    </div>
+
+                    <div class="header-title">
+                        <a href="./index.html" target="_blank">BLOGAMES</a>
+                    </div>
+
+                    <div class="header-icons-right">
+                        <div class="icon">
+                            <span
+                                id="userIcon"
+                                name="userIcon"
+                                onclick="getUser()"
+                            >
+                                <img src="./assets/svg/User.svg" alt="User" />
+                            </span>
+                        </div>
+                        <div class="icon">
+                            <span
+                                id="searchIcon"
+                                name="searchIcon"
+                                onclick="getSearch()"
+                                ><img
+                                    src="./assets/svg/MagnifyingGlass.svg"
+                                    alt="Search"
+                            /></span>
+                        </div>
+                        <div class="icon">
+                            <span
+                                id="sideMenuIcon"
+                                name="sideMenuIcon"
+                                onclick="getSideMenu()"
+                                ><img
+                                    src="./assets/svg/List.svg"
+                                    alt="SideMenu"
+                            /></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="navigation-menu">
+                <span>INICIO</span>
+                <span>CATEGORIA</span>
+                <span>SOBRE</span>
+                <span>CONTATO</span>
+            </div>
+            <div class="content-container">
+                <div class="images-container">
+                    <div class="image">
+                        <img src="./assets/png/xbox.png" alt="Xbox" />
+                        <figcaption class="fig-caption">
+                            <span class="span-img-txt-up"
+                                >19 de outubro, 2023</span
+                            >
+                            <span class="span-img-txt-down"
+                                >Xbox: consoles ganham atualização com novos
+                                recursos</span
+                            >
+                        </figcaption>
+                    </div>
+                    <div class="image">
+                        <img src="./assets/png/cyberpunk.png" alt="Cyberpunk" />
+                        <figcaption class="fig-caption">
+                            <span class="span-img-txt-up"
+                                >4 de outubro, 2023</span
+                            >
+                            <span class="span-img-txt-down"
+                                >Cyberpunk vai ganhar novo jogo</span
+                            >
+                        </figcaption>
+                    </div>
+                    <div class="image">
+                        <img
+                            src="./assets/png/multiversus.png"
+                            alt="Multiversus"
+                        />
+
+                        <figcaption class="fig-caption">
+                            <span class="span-img-txt-up"
+                                >27 de setembro, 2023</span
+                            >
+                            <span class="span-img-txt-down"
+                                >Coringa pode aparecer em MultiVersus em
+                                breve</span
+                            >
+                        </figcaption>
+                    </div>
+                    <div class="image-large">
+                        <img
+                            src="./assets/png/needforspeed.png"
+                            alt="Need4Speed"
+                        />
+                        <figcaption class="fig-caption">
+                            <span class="span-img-txt-up"
+                                >30 de agosto, 2023</span
+                            >
+                            <span class="span-img-txt-down"
+                                >EA Games confirma novo jogo e janela de
+                                lançamento</span
+                            >
+                        </figcaption>
+                    </div>
+                </div>
+            </div>
+            <div
+                class="load-more"
+                style="
+                    font-size: 18px;
+                    display: flex;
+                    justify-content: center;
+                    gap: 16px;
+                    margin-top: 41px;
+                    margin-bottom: 40px;
+                "
+            >
+                <span>CARREGAR MAIS</span>
+                <img src="./assets/png/CaretDown.png" alt="CaretDown" />
+            </div>
+
+            <div
+                class="footer-divisor"
+                style="border-top: solid 1px #e2e2e2; display: flex"
+            >
+                <div
+                    class="footer-box"
+                    style="
+                        width: 1160px;
+                        display: flex;
+                        justify-content: space-between;
+                    "
+                >
+                    <div class="footer-items-left"></div>
+                    <div class="icon">
+                        <span>PT-BR</span>
+                        <img src="./assets/png/CaretDown.png" alt="CaretDown" />
+                    </div>
+                    <div class="footer-items-right">
+                        <span>Sobre</span>
+                        <span>Termos de Serviço</span>
+                        <span>Política de privacidade</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="./test.js"></script>
+    </body>
+</html>
